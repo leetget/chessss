@@ -1,0 +1,25 @@
+# Connector.hpp
+!Connector.hpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo wchar.h wctype.h windows.h #<#>
+!main.cpp Connector.hpp SFML/Graphics.hpp cctype cerrno clocale cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception initializer_list ios iosfwd iostream istream limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error time.h type_traits typeinfo wchar.h wctype.h windows.h #<#>
+ConnectToEngine(char* path) -> void #<Connector.hpp>
+available : DWORD #<Connector.hpp>
+board : int[][] #<main.cpp>
+buffer : BYTE[] #<Connector.hpp>
+excode : DWORD #<Connector.hpp>
+f : Sprite[] #<main.cpp>
+getNextMove : std::string #<Connector.hpp>
+move : void #<main.cpp>
+offset : Vector2f #<main.cpp>
+pi : PROCESS_INFORMATION #<Connector.hpp>
+pipin_r : HANDLE #<Connector.hpp>
+pipin_w : HANDLE #<Connector.hpp>
+pipout_r : HANDLE #<Connector.hpp>
+pipout_w : HANDLE #<Connector.hpp>
+position : std::string #<main.cpp>
+read : DWORD #<Connector.hpp>
+sats : SECURITY_ATTRIBUTES #<Connector.hpp>
+size : int #<main.cpp>
+sti : STARTUPINFO #<Connector.hpp>
+toChessNote(Vector2f p) -> std::string #<main.cpp>
+toCoord(char a, char b) -> Vector2f #<main.cpp>
+writ : DWORD #<Connector.hpp>
